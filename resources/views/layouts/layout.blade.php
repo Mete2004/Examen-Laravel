@@ -10,12 +10,12 @@
 <div class="main">
         <div class="header">
             <ul>
-                <a href="Home.php"><button>Home</button></a>
-                <li><a href="Service">Service</a></li>
-                <li><a href="Prices.php">Prices</a></li>
-                <li><a href="About us.php">About us</a></li>
-                <li><a href="Registreren.php">Registreren</a></li>
-                <li><a href="login.php">Inloggen</a></li>
+                <a href="/"><button>Home</button></a>
+                <li><a href="/service">Service</a></li>
+                <li><a href="/prices">Prices</a></li>
+                <li><a href="/about_us">About us</a></li>
+                <li><a href="/registreren">Registreren</a></li>
+                <li><a href="/login">Inloggen</a></li>
                </ul>
 
            <input type="text" placeholder="search">
