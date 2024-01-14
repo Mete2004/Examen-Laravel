@@ -2,4 +2,11 @@
 @extends('layouts.layout')
 
 
-{{echo 'amk'}}
+@section('content')
+<h1>KAPSALON AMSTERDAM</h1>
+<p>Welkom bij Kapsalon Amsterdam</p>
+<span>
+    <a href="Afspraak.html"><button class="Afspraak">Afspraak</button></a>
+    <a href="About us.html"><button class="Contact">Contact</button></a>
+</span>
+@endsection

@@ -9,15 +9,20 @@
 <body>
 <div class="main">
         <div class="header">
+            <ul>
+                <a href="Home.php"><button>Home</button></a>
+                <li><a href="Service">Service</a></li>
+                <li><a href="Prices.php">Prices</a></li>
+                <li><a href="About us.php">About us</a></li>
+                <li><a href="Registreren.php">Registreren</a></li>
+                <li><a href="login.php">Inloggen</a></li>
+               </ul>
+
            <input type="text" placeholder="search">
        </div>
        <div class="body-section">
-        <h1>KAPSALON AMSTERDAM</h1>
-        <p>Welkom bij Kapsalon Amsterdam</p>
-        <span>
-            <a href="Afspraak.html"><button class="Afspraak">Afspraak</button></a>
-            <a href="About us.html"><button class="Contact">Contact</button></a>
-        </span>
+        {{-- deze code haalt de section (content) naar binnen --}}
+        @yield('content')
                 
        </div>
     </div>
